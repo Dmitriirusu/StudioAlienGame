@@ -1,0 +1,174 @@
+
+atlas.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+live
+  rotate: false
+  xy: 1, 154
+  size: 850, 567
+  orig: 850, 567
+  offset: 0, 0
+  index: -1
+gameOver2
+  rotate: false
+  xy: 1, 68
+  size: 600, 84
+  orig: 600, 84
+  offset: 0, 0
+  index: -1
+level
+  rotate: false
+  xy: 853, 601
+  size: 122, 120
+  orig: 122, 120
+  offset: 0, 0
+  index: -1
+key_yellow
+  rotate: false
+  xy: 1, 29
+  size: 60, 37
+  orig: 60, 37
+  offset: 0, 0
+  index: -1
+slime_normal_left
+  rotate: false
+  xy: 603, 124
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+slime_normal_right
+  rotate: false
+  xy: 853, 571
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+slime_walk_left
+  rotate: false
+  xy: 977, 695
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+slime_walk_right
+  rotate: false
+  xy: 1, 1
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+slime_dead_left
+  rotate: false
+  xy: 63, 58
+  size: 54, 8
+  orig: 54, 8
+  offset: 0, 0
+  index: -1
+slime_dead_right
+  rotate: false
+  xy: 648, 144
+  size: 54, 8
+  orig: 54, 8
+  offset: 0, 0
+  index: -1
+
+atlas2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+frame-1
+  rotate: false
+  xy: 1, 499
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+front
+  rotate: false
+  xy: 1, 499
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-10
+  rotate: false
+  xy: 1, 1
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-91
+  rotate: false
+  xy: 1, 1
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-2
+  rotate: false
+  xy: 497, 499
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-3
+  rotate: false
+  xy: 497, 1
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+
+atlas3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+frame-4
+  rotate: false
+  xy: 1, 499
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-5
+  rotate: false
+  xy: 1, 1
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-7
+  rotate: false
+  xy: 1, 1
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-6
+  rotate: false
+  xy: 497, 499
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+frame-8
+  rotate: false
+  xy: 497, 1
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+
+atlas4.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+frame-9
+  rotate: false
+  xy: 1, 1
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1

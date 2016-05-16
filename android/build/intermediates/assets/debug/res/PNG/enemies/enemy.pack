@@ -1,0 +1,47 @@
+
+enemy.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+slime_normal_left
+  rotate: false
+  xy: 1, 1
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+slime_normal_right
+  rotate: false
+  xy: 46, 1
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+slime_walk_left
+  rotate: false
+  xy: 91, 3
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+slime_walk_right
+  rotate: false
+  xy: 136, 3
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+slime_dead_left
+  rotate: false
+  xy: 181, 21
+  size: 54, 8
+  orig: 54, 8
+  offset: 0, 0
+  index: -1
+slime_dead_right
+  rotate: false
+  xy: 181, 11
+  size: 54, 8
+  orig: 54, 8
+  offset: 0, 0
+  index: -1

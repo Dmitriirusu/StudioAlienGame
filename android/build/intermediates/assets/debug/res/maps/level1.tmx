@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="110" height="30" tilewidth="70" tileheight="70" nextobjectid="51">
+ <tileset firstgid="1" name="all" tilewidth="129" tileheight="146" tilecount="50" columns="0">
+  <tile id="0">
+   <image width="54" height="28" source="../PNG/alien_plant.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../PNG/block.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="../PNG/block1.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="70" source="../PNG/bonus.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="70" source="../PNG/bonus_used.png"/>
+  </tile>
+  <tile id="5">
+   <image width="71" height="24" source="../PNG/bridge.png"/>
+  </tile>
+  <tile id="6">
+   <image width="70" height="26" source="../PNG/bush.png"/>
+  </tile>
+  <tile id="7">
+   <image width="129" height="63" source="../PNG/cloud_1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="63" source="../PNG/cloud_2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="63" source="../PNG/cloud_3.png"/>
+  </tile>
+  <tile id="10">
+   <image width="35" height="35" source="../PNG/coin_bronze.png"/>
+  </tile>
+  <tile id="11">
+   <image width="35" height="35" source="../PNG/coin_gold.png"/>
+  </tile>
+  <tile id="12">
+   <image width="35" height="35" source="../PNG/coin_silver.png"/>
+  </tile>
+  <tile id="13">
+   <image width="70" height="70" source="../PNG/crate.png"/>
+  </tile>
+  <tile id="14">
+   <image width="70" height="61" source="../PNG/fence.png"/>
+  </tile>
+  <tile id="15">
+   <image width="70" height="61" source="../PNG/fence_broken.png"/>
+  </tile>
+  <tile id="16">
+   <image width="35" height="40" source="../PNG/grass.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="70" source="../PNG/ground.png"/>
+  </tile>
+  <tile id="18">
+   <image width="70" height="70" source="../PNG/ground_cave.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="70" source="../PNG/ground_dirt.png"/>
+  </tile>
+  <tile id="20">
+   <image width="70" height="70" source="../PNG/ground_dirt1.png"/>
+  </tile>
+  <tile id="21">
+   <image width="70" height="70" source="../PNG/ground_rock.png"/>
+  </tile>
+  <tile id="22">
+   <image width="70" height="70" source="../PNG/ground_sand.png"/>
+  </tile>
+  <tile id="23">
+   <image width="70" height="70" source="../PNG/ground1.png"/>
+  </tile>
+  <tile id="24">
+   <image width="70" height="70" source="../PNG/ground2.png"/>
+  </tile>
+  <tile id="25">
+   <image width="48" height="146" source="../PNG/hill_long.png"/>
+  </tile>
+  <tile id="26">
+   <image width="48" height="102" source="../PNG/hill_short.png"/>
+  </tile>
+  <tile id="27">
+   <image width="60" height="37" source="../PNG/key_blue.png"/>
+  </tile>
+  <tile id="28">
+   <image width="60" height="37" source="../PNG/key_green.png"/>
+  </tile>
+  <tile id="29">
+   <image width="60" height="37" source="../PNG/key_red.png"/>
+  </tile>
+  <tile id="30">
+   <image width="60" height="37" source="../PNG/key_yellow.png"/>
+  </tile>
+  <tile id="31">
+   <image width="70" height="45" source="../PNG/lava.png"/>
+  </tile>
+  <tile id="32">
+   <image width="70" height="70" source="../PNG/lock_blue.png"/>
+  </tile>
+  <tile id="33">
+   <image width="70" height="70" source="../PNG/lock_green.png"/>
+  </tile>
+  <tile id="34">
+   <image width="70" height="70" source="../PNG/lock_red.png"/>
+  </tile>
+  <tile id="35">
+   <image width="70" height="70" source="../PNG/lock_yellow.png"/>
+  </tile>
+  <tile id="36">
+   <image width="72" height="21" source="../PNG/plank.png"/>
+  </tile>
+  <tile id="37">
+   <image width="70" height="41" source="../PNG/rock.png"/>
+  </tile>
+  <tile id="38">
+   <image width="39" height="34" source="../PNG/shroom.png"/>
+  </tile>
+  <tile id="39">
+   <image width="70" height="70" source="../PNG/sky_011.png"/>
+  </tile>
+  <tile id="40">
+   <image width="70" height="35" source="../PNG/spikes.png"/>
+  </tile>
+  <tile id="41">
+   <image width="70" height="46" source="../PNG/switch_blue_off.png"/>
+  </tile>
+  <tile id="42">
+   <image width="70" height="27" source="../PNG/switch_blue_on.png"/>
+  </tile>
+  <tile id="43">
+   <image width="70" height="46" source="../PNG/switch_green_off.png"/>
+  </tile>
+  <tile id="44">
+   <image width="70" height="27" source="../PNG/switch_green_on.png"/>
+  </tile>
+  <tile id="45">
+   <image width="70" height="46" source="../PNG/switch_red_off.png"/>
+  </tile>
+  <tile id="46">
+   <image width="70" height="27" source="../PNG/switch_red_on.png"/>
+  </tile>
+  <tile id="47">
+   <image width="70" height="46" source="../PNG/switch_yellow_off.png"/>
+  </tile>
+  <tile id="48">
+   <image width="70" height="27" source="../PNG/switch_yellow_on.png"/>
+  </tile>
+  <tile id="49">
+   <image width="70" height="45" source="../PNG/water.png"/>
+  </tile>
+ </tileset>
+ <layer name="sky" width="110" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0aENACAQBMFvAkEH33+FSPSpD2TE+E22q6oBAAAAAAAAAAAAAPjaDky3cq3AdCu+vS75dgDn9ACn
+  </data>
+ </layer>
+ <layer name="ground" width="110" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKgDAMBED/IIL6/4eKB2+KjVZNZQb2WEqzkHYdAAAAAAAAAADAsX4nQLumCvmzyL7b24+R8+NJSgyB3O0u8tY7c8ls7eVsziUivdXoLoP5o3tLOnuqt627Vvdrjf/iamrO90pv0WTyxnv/kky+nkVLyWQB5MYeBg==
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object id="4" x="560" y="1610">
+   <ellipse/>
+  </object>
+  <object id="5" x="1470" y="1400">
+   <ellipse/>
+  </object>
+  <object id="6" x="1540" y="1400">
+   <ellipse/>
+  </object>
+  <object id="8" x="1400" y="1400">
+   <ellipse/>
+  </object>
+  <object id="9" x="1610" y="1400">
+   <ellipse/>
+  </object>
+  <object id="11" x="3430" y="1820">
+   <ellipse/>
+  </object>
+  <object id="12" x="3220" y="1820">
+   <ellipse/>
+  </object>
+  <object id="13" x="3290" y="1820">
+   <ellipse/>
+  </object>
+  <object id="14" x="3360" y="1820">
+   <ellipse/>
+  </object>
+  <object id="15" x="3150" y="1820">
+   <ellipse/>
+  </object>
+  <object id="16" x="3150" y="1750">
+   <ellipse/>
+  </object>
+  <object id="19" x="3220" y="1750">
+   <ellipse/>
+  </object>
+  <object id="20" x="3290" y="1750">
+   <ellipse/>
+  </object>
+  <object id="21" x="3360" y="1750">
+   <ellipse/>
+  </object>
+  <object id="22" x="3430" y="1750">
+   <ellipse/>
+  </object>
+  <object id="28" x="5600" y="1610">
+   <ellipse/>
+  </object>
+  <object id="29" x="5670" y="1610">
+   <ellipse/>
+  </object>
+  <object id="30" x="5740" y="1610">
+   <ellipse/>
+  </object>
+  <object id="34" x="6370" y="1610">
+   <ellipse/>
+  </object>
+  <object id="35" x="6440" y="1610">
+   <ellipse/>
+  </object>
+  <object id="36" x="6510" y="1610">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="enemy">
+  <object id="23" x="2030" y="1820">
+   <ellipse/>
+  </object>
+  <object id="25" x="3570" y="1540">
+   <ellipse/>
+  </object>
+  <object id="38" x="6300" y="1610">
+   <ellipse/>
+  </object>
+  <object id="50" x="5523" y="1651">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="key">
+  <object id="39" x="7560" y="1750">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="ground1">
+  <object id="40" name="line" x="0" y="1890">
+   <polyline points="0,0 2170,0 2170,-70 2240,-70 2240,-140 2310,-140 2310,-210 2870,-210 2870,0 3500,0 3500,-210 3080,-210 3080,-280 4270,-280 4270,-210 4340,-210 4340,-140 4410,-140 4410,-70 5250,-70 5250,210"/>
+  </object>
+  <object id="41" name="line" x="5390" y="1680">
+   <polyline points="0,0 560,0 560,70 0,70 0,0"/>
+  </object>
+  <object id="42" name="line" x="420" y="1680">
+   <polyline points="0,0 280,0 280,70 0,70 0,0"/>
+  </object>
+  <object id="43" name="line" x="1190" y="1680">
+   <polyline points="0,0 630,0 630,70 0,70 0,0"/>
+  </object>
+  <object id="44" name="line" x="1330" y="1470">
+   <polyline points="0,0 350,0 350,70 0,70 0,0"/>
+  </object>
+  <object id="45" name="line" x="6720" y="1680">
+   <polyline points="0,0 -560,0 -560,70 0,70 0,0"/>
+  </object>
+  <object id="46" name="line" x="6930" y="2100">
+   <polyline points="0,0 0,-280 770,-280"/>
+  </object>
+ </objectgroup>
+ <layer name="background" width="110" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1UsKhDAQBUDduZ1LKN7/gq4GxC9xpo2JVdCgRNLmRUzTAAAAAECsLvcLFEZeAJQs9zmWuz9rufbEt7AtIpeUOaP3pVtULb1qtsxRps8QnX97cg+18m97p3bn+uzZK+OlOVpPyllRWy5Qos+shj/P96079Df1AeA3Y3ClmADbSAWI
+  </data>
+ </layer>
+</map>

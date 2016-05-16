@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="27" height="15" tilewidth="70" tileheight="70" nextobjectid="21">
+ <tileset firstgid="1" name="hgj" tilewidth="800" tileheight="600" tilecount="51">
+  <tile id="0">
+   <image width="54" height="28" source="../PNG/alien_plant.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../PNG/block.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="../PNG/bonus.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="70" source="../PNG/bonus_used.png"/>
+  </tile>
+  <tile id="4">
+   <image width="71" height="24" source="../PNG/bridge.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="26" source="../PNG/bush.png"/>
+  </tile>
+  <tile id="6">
+   <image width="129" height="63" source="../PNG/cloud_1.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="63" source="../PNG/cloud_2.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="63" source="../PNG/cloud_3.png"/>
+  </tile>
+  <tile id="9">
+   <image width="35" height="35" source="../PNG/coin_bronze.png"/>
+  </tile>
+  <tile id="10">
+   <image width="35" height="35" source="../PNG/coin_gold.png"/>
+  </tile>
+  <tile id="11">
+   <image width="35" height="35" source="../PNG/coin_silver.png"/>
+  </tile>
+  <tile id="12">
+   <image width="70" height="70" source="../PNG/crate.png"/>
+  </tile>
+  <tile id="13">
+   <image width="70" height="61" source="../PNG/fence.png"/>
+  </tile>
+  <tile id="14">
+   <image width="70" height="61" source="../PNG/fence_broken.png"/>
+  </tile>
+  <tile id="15">
+   <image width="35" height="40" source="../PNG/grass.png"/>
+  </tile>
+  <tile id="16">
+   <image width="70" height="70" source="../PNG/ground.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="70" source="../PNG/ground_cave.png"/>
+  </tile>
+  <tile id="18">
+   <image width="70" height="70" source="../PNG/ground_dirt.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="70" source="../PNG/ground_rock.png"/>
+  </tile>
+  <tile id="20">
+   <image width="70" height="70" source="../PNG/ground_sand.png"/>
+  </tile>
+  <tile id="21">
+   <image width="48" height="146" source="../PNG/hill_long.png"/>
+  </tile>
+  <tile id="22">
+   <image width="48" height="102" source="../PNG/hill_short.png"/>
+  </tile>
+  <tile id="23">
+   <image width="60" height="37" source="../PNG/key_blue.png"/>
+  </tile>
+  <tile id="24">
+   <image width="60" height="37" source="../PNG/key_green.png"/>
+  </tile>
+  <tile id="25">
+   <image width="60" height="37" source="../PNG/key_red.png"/>
+  </tile>
+  <tile id="26">
+   <image width="60" height="37" source="../PNG/key_yellow.png"/>
+  </tile>
+  <tile id="27">
+   <image width="70" height="45" source="../PNG/lava.png"/>
+  </tile>
+  <tile id="28">
+   <image width="70" height="70" source="../PNG/lock_blue.png"/>
+  </tile>
+  <tile id="29">
+   <image width="70" height="70" source="../PNG/lock_green.png"/>
+  </tile>
+  <tile id="30">
+   <image width="70" height="70" source="../PNG/lock_red.png"/>
+  </tile>
+  <tile id="31">
+   <image width="70" height="70" source="../PNG/lock_yellow.png"/>
+  </tile>
+  <tile id="32">
+   <image width="72" height="21" source="../PNG/plank.png"/>
+  </tile>
+  <tile id="33">
+   <image width="70" height="41" source="../PNG/rock.png"/>
+  </tile>
+  <tile id="34">
+   <image width="39" height="34" source="../PNG/shroom.png"/>
+  </tile>
+  <tile id="35">
+   <image width="800" height="600" source="../PNG/sky_01.png"/>
+  </tile>
+  <tile id="36">
+   <image width="70" height="70" source="../PNG/sky_011.png"/>
+  </tile>
+  <tile id="37">
+   <image width="70" height="35" source="../PNG/spikes.png"/>
+  </tile>
+  <tile id="38">
+   <image width="70" height="46" source="../PNG/switch_blue_off.png"/>
+  </tile>
+  <tile id="39">
+   <image width="70" height="27" source="../PNG/switch_blue_on.png"/>
+  </tile>
+  <tile id="40">
+   <image width="70" height="46" source="../PNG/switch_green_off.png"/>
+  </tile>
+  <tile id="41">
+   <image width="70" height="27" source="../PNG/switch_green_on.png"/>
+  </tile>
+  <tile id="42">
+   <image width="70" height="46" source="../PNG/switch_red_off.png"/>
+  </tile>
+  <tile id="43">
+   <image width="70" height="27" source="../PNG/switch_red_on.png"/>
+  </tile>
+  <tile id="44">
+   <image width="70" height="46" source="../PNG/switch_yellow_off.png"/>
+  </tile>
+  <tile id="45">
+   <image width="70" height="27" source="../PNG/switch_yellow_on.png"/>
+  </tile>
+  <tile id="46">
+   <image width="70" height="45" source="../PNG/water.png"/>
+  </tile>
+  <tile id="47">
+   <image width="70" height="70" source="../PNG/block1.png"/>
+  </tile>
+  <tile id="48">
+   <image width="70" height="70" source="../PNG/ground_dirt1.png"/>
+  </tile>
+  <tile id="49">
+   <image width="70" height="70" source="../PNG/ground1.png"/>
+  </tile>
+  <tile id="50">
+   <image width="70" height="70" source="../PNG/ground2.png"/>
+  </tile>
+ </tileset>
+ <layer name="sky" width="27" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxTZWBgUB3Fo3gUj+JRPIqpgAG7tzqK
+  </data>
+ </layer>
+ <layer name="Слой тайлов 2" width="27" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAL6ASky9SlBaW0orQzFyEAciMWgbEYgFoBiZDY6HgXUBQAcpgFd
+  </data>
+ </layer>
+ <layer name="ground" width="27" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhCQSpbJ4RHbHhMMUALRIPrg==
+  </data>
+ </layer>
+ <objectgroup name="ground1">
+  <object id="1" name="line" x="0" y="840">
+   <polyline points="0,0 1890,0"/>
+  </object>
+  <object id="16" name="line" x="490" y="840">
+   <polyline points="0,0 0,-70 70,-70 70,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="coins">
+  <object id="2" x="596" y="798">
+   <ellipse/>
+  </object>
+  <object id="3" x="664" y="806">
+   <ellipse/>
+  </object>
+  <object id="4" x="734" y="790">
+   <ellipse/>
+  </object>
+  <object id="5" x="869.697" y="654.545">
+   <ellipse/>
+  </object>
+  <object id="6" x="1718.18" y="800">
+   <ellipse/>
+  </object>
+  <object id="7" x="1769.7" y="790.909">
+   <ellipse/>
+  </object>
+  <object id="8" x="1863.64" y="787.879">
+   <ellipse/>
+  </object>
+  <object id="9" x="1118.18" y="1372.73">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="enemy">
+  <object id="13" x="177" y="824">
+   <ellipse/>
+  </object>
+  <object id="14" x="247" y="821">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="key">
+  <object id="18" x="414" y="796">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

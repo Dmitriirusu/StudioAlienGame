@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="27" height="15" tilewidth="70" tileheight="70" nextobjectid="43">
+ <tileset firstgid="1" name="h" tilewidth="800" tileheight="600" tilecount="2">
+  <tile id="0">
+   <image width="70" height="70" source="../PNG/ground.png"/>
+  </tile>
+  <tile id="1">
+   <image width="800" height="600" source="../PNG/sky_01.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="kl" tilewidth="70" tileheight="70" tilecount="2">
+  <tile id="0">
+   <image width="70" height="70" source="../PNG/sky_011.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../PNG/block.png"/>
+  </tile>
+ </tileset>
+ <layer name="sky" width="27" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYB7Fo3gUj+JRPIqpgAEVCQTA
+  </data>
+ </layer>
+ <layer name="ground" width="27" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhB1iGgR2MUEwtc+iBARfQACY=
+  </data>
+ </layer>
+ <objectgroup name="ground1">
+  <object id="10" name="line" x="0" y="980">
+   <polyline points="0,0 630,0 630,-70 770,-70 770,0 1890,0"/>
+  </object>
+  <object id="13" name="line" x="840" y="910">
+   <polyline points="0,0 0,-70 70,-70 70,0 0,0"/>
+  </object>
+  <object id="17" name="line" x="1050" y="840">
+   <polyline points="0,0 0,-70 -70,-70 -70,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="coins">
+  <object id="20" x="1014" y="725">
+   <ellipse/>
+  </object>
+  <object id="21" x="872" y="800">
+   <ellipse/>
+  </object>
+  <object id="22" x="729" y="877">
+   <ellipse/>
+  </object>
+  <object id="23" x="669" y="861">
+   <ellipse/>
+  </object>
+  <object id="24" x="590" y="946">
+   <ellipse/>
+  </object>
+  <object id="25" x="544" y="947">
+   <ellipse/>
+  </object>
+  <object id="26" x="510" y="948">
+   <ellipse/>
+  </object>
+  <object id="27" x="468" y="947">
+   <ellipse/>
+  </object>
+  <object id="28" x="409" y="950">
+   <ellipse/>
+  </object>
+  <object id="29" x="432" y="953">
+   <ellipse/>
+  </object>
+  <object id="30" x="12" y="944">
+   <ellipse/>
+  </object>
+  <object id="31" x="29" y="946" width="3">
+   <ellipse/>
+  </object>
+  <object id="32" x="65" y="946">
+   <ellipse/>
+  </object>
+  <object id="33" x="74" y="947">
+   <ellipse/>
+  </object>
+  <object id="34" x="89" y="948" width="1">
+   <ellipse/>
+  </object>
+  <object id="35" x="113" y="948">
+   <ellipse/>
+  </object>
+  <object id="36" x="123" y="946">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="key">
+  <object id="42" x="1824" y="916">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
